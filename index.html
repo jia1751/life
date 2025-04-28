@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Life</title>
+  <title>中華職棒</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -15,9 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +35,66 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多色彩網頁</title>
+    <style>
+        /* 網頁背景顏色 */
+        body {
+            background-color: #f0f8ff; /* 淡藍色 */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 標題顏色 */
+        h1 {
+            color: #4CAF50; /* 綠色 */
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #FF6347; /* 番茄紅 */
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        /* 段落顏色 */
+        p {
+            color: #333333; /* 深灰色 */
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        /* 訪問按鈕顏色 */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FFD700; /* 金色 */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #FF8C00; /* 橙色 */
+        }
+
+        /* 頁面區塊背景顏色 */
+        .section {
+            background-color: #59affea4; /* 薰衣草紫 */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
 
 <body class="index-page">
 
@@ -46,35 +104,17 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">life</h1>
+        <h1 class="sitename">中華職棒</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+          <li><a href="#about">富邦悍將</a></li>
+          <li><a href="#services">戰隊排名</a></li>
+          <li><a href="#portfolio">悍將點兵錄</a></li>
+          <li><a href="#team">鍵盤總教練先發打序</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -85,14 +125,6 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <h2>Welcome to My Life</h2>
-        <p>Every moment tells a story, and this is where I share mine.</p>
-        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
-      </div>
 
     </section><!-- /Hero Section -->
 
@@ -101,49 +133,46 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Me</h2>
-        <p>Every day is a new chapter, and this is where I write my story.</p>
+        <h2>富邦悍將</h2>
+        <p>Fight For All! 我要全部！</p>
+        <p>來到新莊城堡就拋開所有煩惱～</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="https://takao.kcg.gov.tw/public/article/a0/967/atl_967_20230321153257_267.jpg" alt="Life Moments">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy3TepJKMcHvaluZWBkgqfgsY8gH1QSAGL4w&s
+            " class="img-fluid" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkc9D8O7k2KI48sZwEcJmzYL2nxli0ivlG7A&s
+            " class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>Embracing Life, One Moment at a Time</h2>
+            <h2>Fubon Guardians &amp; Fubon Angels</h2>
             <p class="fst-italic py-3">
-              I believe that life is a collection of beautiful moments, both big and small. Whether it's a quiet morning
-              coffee, an exciting adventure, or a simple walk in the park—every experience matters.
+              
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Hobby:</strong> <span>Photography & Traveling</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Favorite Spot:</strong> <span>Near the ocean</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Dream Destination:</strong> <span>Japan & Italy</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Somewhere in the world</span>
-                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong> 富邦悍將</strong><span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>領隊</strong>林華韋<span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>副領隊</strong>林威助<span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>總教練</strong> <span>５２ 陳金鋒</span></li>
+                  
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Passion:</strong> <span>Storytelling through
-                      photos</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Favorite Season:</strong> <span>Autumn</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>life@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Currently:</strong> <span>Exploring new
-                      experiences</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>應援團</strong> <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>應援團長</strong> <span>Travis</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>吉祥物</strong> <span>Frankie</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>吉祥物</strong> <span>Bonnie</span></li>
                 </ul>
               </div>
             </div>
             <p class="py-3">
-              Life is about cherishing every step of the journey. Here, I share my adventures, thoughts, and little joys
-              that make life meaningful. Join me as I capture and celebrate the beauty of everyday living.
+              2016年9月富邦育樂宣布與義大育樂簽署合作備忘錄接手義大職棒隊，並於同年11月1日成立富邦悍將棒球隊（Fubon Guardians）重新出發，正式進軍中華職棒，力挺台灣棒球成長發展。
             </p>
           </div>
         </div>
@@ -152,472 +181,1006 @@
 
     </section><!-- /About Section -->
 
-
-    <!-- Life Skills Section -->
+    <!-- Skills Section -->
     <section id="skills" class="skills section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Life Skills</h2>
-        <p>Skills that help me enjoy and navigate life every day.</p>
+        <div class="container section-title" data-aos="fade-up">
+         
+
+   
+         
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <!DOCTYPE html>
+        <html lang="zh-Hant">
+        <head>
+          <meta charset="UTF-8">
+          <title>中華職棒排名表</title>
+          <style>
+            body {
+              font-family: "Helvetica Neue", Arial, sans-serif;
+              background-color: #f5f7fa;
+              margin: 20px;
+            }
+            .table-container {
+              width: 90%;
+              max-width: 800px;
+              margin: 40px auto;
+              background: #ffffff;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+            }
+            table {
+              width: 100%;
+              border-collapse: collapse;
+            }
+            thead {
+              background-color: #007bff;
+              color: white;
+            }
+            th, td {
+              padding: 14px 20px;
+              text-align: center;
+              font-size: 16px;
+            }
+            tbody tr:nth-child(even) {
+              background-color: #f0f2f5;
+            }
+            tbody tr:hover {
+              background-color: #e2e6ea;
+            }
+            h2 {
+              text-align: center;
+              margin-top: 20px;
+              color: #333;
+            }
+          </style>
+        </head>
+        <body>
+        
+          <h2>中華職棒 2025 排名表</h2>
+        
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>排名</th>
+                  <th>球隊</th>
+                  <th>出賽數</th>
+                  <th>勝-和-敗</th>
+                  <th>勝率</th>
+                  <th>勝差</th>
+                  <th>淘汰指數</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>統一7-ELEVEN獅</td>
+                  <td>21</td>
+                  <td>13-0-8</td>
+                  <td>0.619</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>味全龍</td>
+                  <td>20</td>
+                  <td>12-0-8</td>
+                  <td>0.600</td>
+                  <td>0.5</td>
+                  <td>40</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>中信兄弟</td>
+                  <td>22</td>
+                  <td>13-0-9</td>
+                  <td>0.591</td>
+                  <td>0.5</td>
+                  <td>39</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>樂天桃猿</td>
+                  <td>18</td>
+                  <td>8-0-10</td>
+                  <td>0.444</td>
+                  <td>3.5</td>
+                  <td>38</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>台鋼雄鷹</td>
+                  <td>21</td>
+                  <td>9-0-12</td>
+                  <td>0.429</td>
+                  <td>4</td>
+                  <td>36</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>富邦悍將</td>
+                  <td>20</td>
+                  <td>6-0-14</td>
+                  <td>0.300</td>
+                  <td>6.5</td>
+                  <td>34</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        
+        </body>
+        </html>
+        
+          </style>
+        </head>
+        <body>
+        
+       
+          </div><!-- End Service Item -->
+
+         
+
+    </section><!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>悍將排行榜</h2>
+        <div class="container section-title" data-aos="fade-up">
+          <p>打者排名/野手排名 （排名順序為上到下）</p>
+        </div><!-- End Section Title -->
+        
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row skills-content skills-animation">
+            
+            <!-- 左邊部分 -->
+            <div class="col-lg-6">
+              
+              <div class="progress">
+                <span class="skill">
+                  <span>95 戴培峰</span> 
+                  <i class="val">AVG:0.365</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              
+              <div class="progress">
+                <span class="skill">
+                 
+                  <span>張育成</span> 
+                  <i class="val">HR:2</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              
+              <div class="progress">
+                <span class="skill">
+                
+                  <span>董子恩</span> 
+                  <i class="val">RBI:8</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              
+            </div>
+        
+            <!-- 右邊部分 -->
+            <div class="col-lg-6">
+              
+              <div class="progress">
+                <span class="skill">
+                 
+                  <span>力亞士</span> 
+                  <i class="val">ERA:4.28</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              
+              <div class="progress">
+                <span class="skill">
+           
+                  <span>曾峻岳</span> 
+                  <i class="val">W:0</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              
+              <div class="progress">
+                <span class="skill">
+                  <span>富藍戈</span> 
+                  <i class="val">SV:0</i>
+                </span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+        
+            </div><!-- End of right section -->
+            
+          </div><!-- End of row -->
+        </div><!-- End of container -->
+        
+       
+        
       </div><!-- End Section Title -->
+      <!DOCTYPE html>
+      <html lang="zh-Hant">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>富邦悍將 球員名單</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .player-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      text-align: center;
+    }
+    .player-card:hover {
+      transform: translateY(-5px);
+    }
+    .player-photo {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .player-info {
+      padding: 15px;
+    }
+    .player-number {
+      font-size: 20px;
+      font-weight: bold;
+      color: #005bac;
+      margin-bottom: 5px;
+    }
+    .player-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .player-position {
+      font-size: 16px;
+      color: #666;
+    }
+  </style>
+</head>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+<body>
 
-        <div class="row skills-content skills-animation">
+<div class="container py-5">
+  <h2 class="text-center mb-5">富邦悍將 球員名單</h2>
 
-          <div class="col-lg-6">
+  <div class="row g-4">
+    
+    <!-- 球員卡片 -->
 
-            <div class="progress">
-              <span class="skill"><span>Photography</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/8996ddbf-54e0-435a-9c2f-a0de4a0dcf56.jpg" alt="王勝偉" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#3</div>
+          <div class="player-name">王勝偉</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/be1b4049-9eb4-4e57-8ea6-5b6b5a9cbf9c.jpg" alt="王念好" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#5</div>
+          <div class="player-name">王念好</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/a7b6099f-2212-47b0-a463-d62287837656.jpg" alt="葉子霆" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#6</div>
+          <div class="player-name">葉子霆</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/a01cbf69-26b2-45cb-b007-6a83ac992357.jpg" alt="江國豪" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#12</div>
+          <div class="player-name">江國豪</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 以下依此類推，整理繼續 -->
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/e3d145c9-fbf1-498f-9a3d-6bfc77212e60.jpg" alt="黃保羅" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#14</div>
+          <div class="player-name">黃保羅</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/f9e70bed-e7a9-4327-a756-dddba8d6d501.jpg" alt="張奕" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#19</div>
+          <div class="player-name">張奕</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/70ca876e-9a67-49e1-8e13-3bb7486c9215.jpg" alt="李宗賢" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#22</div>
+          <div class="player-name">李宗賢</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/3a0030ac-7f89-4ac0-8367-70a19c94662c.jpg" alt="申皓瑋" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#29</div>
+          <div class="player-name">申皓瑋</div>
+          <div class="player-position">外野手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/a81c3e59-6bfc-459f-bf31-69501064de2a.jpg" alt="王正棠" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#35</div>
+          <div class="player-name">王正棠</div>
+          <div class="player-position">外野手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/64f5c131-a231-414c-925c-fb571e06fc7c.jpg" alt="豊暐" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#43</div>
+          <div class="player-name">豊暐</div>
+          <div class="player-position">捕手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/5c17e0a5-bc03-4325-8d90-a324fa63cb88.jpg" alt="范國宸" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#46</div>
+          <div class="player-name">范國宸</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/7d241318-bc96-4b1c-8368-ee9724fbf678.jpg" alt="力亞士" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#55</div>
+          <div class="player-name">力亞士</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/4a486f47-f29a-4e18-9b05-dd36ce50a142.jpg" alt="曾峻岳" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#60</div>
+          <div class="player-name">曾峻岳</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/e63456e2-22e7-4752-8849-804fac3d3854.jpg" alt="李東洺" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#66</div>
+          <div class="player-name">李東洺</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/510fd3be-0128-471a-bac1-b65af956f023.jpg" alt="辛元旭" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#67</div>
+          <div class="player-name">辛元旭</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/fbf19362-1c4a-4684-ba99-de137ed63866.jpg" alt="董子恩" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#78</div>
+          <div class="player-name">董子恩</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/f60656f7-49a9-473c-b084-7ddc72cbcd92.jpg" alt="陳仕朋" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#81</div>
+          <div class="player-name">陳仕朋</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/b80d32d8-c1ef-4be7-84d8-03584cdddc54.jpg" alt="孔念恩" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#82</div>
+          <div class="player-name">孔念恩</div>
+          <div class="player-position">外野手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/48d0abe8-0627-4ddc-ae3e-fe1b522ff478.jpg" alt="銳歐" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#84</div>
+          <div class="player-name">銳歐</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/81f7c9c1-1994-4670-8193-dde967fe9cbc.jpg" alt="富藍戈" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#87</div>
+          <div class="player-name">富藍戈</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/7f6c370c-e0b7-4ac0-bd24-22e04f6079e1.jpg" alt="林栚呈" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#94</div>
+          <div class="player-name">林栚呈</div>
+          <div class="player-position">投手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/5e671c56-b3ce-465a-8099-67e691242f3b.jpg" alt="戴培峰" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#95</div>
+          <div class="player-name">戴培峰</div>
+          <div class="player-position">捕手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/a0a77bc9-62b0-43fb-ab59-a177aebeb286.jpg" alt="池恩齊" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#97</div>
+          <div class="player-name">池恩齊</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/b30a918a-905a-4b90-af20-0893b0233146.jpg" alt="高國麟" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#98</div>
+          <div class="player-name">高國麟</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="player-card">
+        <img src="https://www.fubonguardians.com/UploadFolder/file/players/b3a2a620-2552-4e93-9b79-1ae55f450494.jpg" alt="張育成" class="player-photo">
+        <div class="player-info">
+          <div class="player-number">#99</div>
+          <div class="player-name">張育成</div>
+          <div class="player-position">內野手</div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- 可以繼續新增其他球員 -->
+
+  </div>
+</div>
+
+</body>
+</html>
+
+      </html>
+      
+   
               </div>
-            </div><!-- End Skills Item -->
+            </div><!-- End Portfolio Item -->
 
-            <div class="progress">
-              <span class="skill"><span>Cooking</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Writing</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Travel Planning</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Fitness & Yoga</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>DIY & Home Decor</span> <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
+          </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
 
-    </section><!-- /Life Skills Section -->
+    </section><!-- /Portfolio Section -->
 
-    <!-- My Journey Section -->
-    <section id="resume" class="resume section light-background">
+    <!-- Testimonials Section -->
+    <section id="team" class="team section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>My Journey</h2>
-        <p>Life is a beautiful journey filled with experiences that shape who we are.</p>
+        <!DOCTYPE html>
+        <html lang="zh-TW">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!DOCTYPE html>
+            <html lang="zh-TW">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>鍵盤總教練先發打序</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 20px;
+                        background-color: #f4f4f9;
+                    }
+                    h1 {
+                        text-align: center;
+                    }
+                    .container {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        background-color: #fff;
+                        padding: 20px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    }
+                    label {
+                        font-size: 16px;
+                        margin: 10px 0;
+                        display: block;
+                    }
+                    input {
+                        width: 100%;
+                        padding: 8px;
+                        margin: 5px 0 15px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+                    button {
+                        background-color: #4CAF50;
+                        color: white;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+                    button:hover {
+                        background-color: #45a049;
+                    }
+                    .output {
+                        margin-top: 20px;
+                        padding: 10px;
+                        background-color: #e3f2fd;
+                        border-radius: 4px;
+                    }
+                    .discussion {
+                        margin-top: 30px;
+                        padding: 20px;
+                        background-color: #fafafa;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    }
+                    .discussion h2 {
+                        font-size: 20px;
+                        margin-bottom: 15px;
+                    }
+                    .discussion ul {
+                        list-style-type: none;
+                        padding: 0;
+                    }
+                    .discussion li {
+                        background-color: #f0f8ff;
+                        margin: 10px 0;
+                        padding: 10px;
+                        border-radius: 4px;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>鍵盤總教練先發打序</h1>
+                <div class="container">
+                    <form id="lineupForm">
+                        <label for="gameDate">比賽日期：</label>
+                        <input type="date" id="gameDate" name="gameDate">
+            
+                        <label for="player1">1. 打者：</label>
+                        <input type="text" id="player1" name="player1" placeholder="填寫球員姓名">
+            
+                        <label for="player2">2. 打者：</label>
+                        <input type="text" id="player2" name="player2" placeholder="填寫球員姓名">
+            
+                        <label for="player3">3. 打者：</label>
+                        <input type="text" id="player3" name="player3" placeholder="填寫球員姓名">
+            
+                        <label for="player4">4. 打者：</label>
+                        <input type="text" id="player4" name="player4" placeholder="填寫球員姓名">
+            
+                        <label for="player5">5. 打者：</label>
+                        <input type="text" id="player5" name="player5" placeholder="填寫球員姓名">
+            
+                        <label for="player6">6. 打者：</label>
+                        <input type="text" id="player6" name="player6" placeholder="填寫球員姓名">
+            
+                        <label for="player7">7. 打者：</label>
+                        <input type="text" id="player7" name="player7" placeholder="填寫球員姓名">
+            
+                        <label for="player8">8. 打者：</label>
+                        <input type="text" id="player8" name="player8" placeholder="填寫球員姓名">
+            
+                        <label for="player9">9. 打者：</label>
+                        <input type="text" id="player9" name="player9" placeholder="填寫球員姓名">
+            
+                        <button type="button" onclick="generateLineup()">產生打序</button>
+                    </form>
+            
+                    <div class="output" id="lineupOutput" style="display: none;">
+                        <h3>先發打序：</h3>
+                        <ul id="lineupList"></ul>
+                        <button type="button" onclick="postToForum()">發佈到討論區</button>
+                    </div>
+                </div>
+            
+                <div class="discussion" id="discussionForum">
+                    <h2>討論區</h2>
+                    <ul id="discussionList"></ul>
+                </div>
+            
+                <script>
+                    var generatedLineup = '';
+            
+                    function generateLineup() {
+                        // 獲取比賽日期和表單資料
+                        var gameDate = document.getElementById('gameDate').value;
+                        var players = [];
+                        for (var i = 1; i <= 9; i++) {
+                            var playerName = document.getElementById('player' + i).value;
+                            if (playerName) {
+                                players.push(playerName);
+                            }
+                        }
+            
+                        // 顯示先發打序
+                        var lineupOutput = document.getElementById('lineupOutput');
+                        var lineupList = document.getElementById('lineupList');
+                        lineupList.innerHTML = '';
+            
+                        if (gameDate && players.length === 9) {
+                            generatedLineup = `比賽日期：${gameDate}\n`;
+                            players.forEach(function(player, index) {
+                                generatedLineup += (index + 1) + '. ' + player + '\n';
+                                var listItem = document.createElement('li');
+                                listItem.textContent = (index + 1) + '. ' + player;
+                                lineupList.appendChild(listItem);
+                            });
+                            lineupOutput.style.display = 'block';
+                        } else {
+                            alert('請填寫比賽日期及所有9個打者!');
+                        }
+                    }
+            
+                    function postToForum() {
+                        var gameDate = document.getElementById('gameDate').value;
+                        if (!gameDate || !generatedLineup) {
+                            alert('請先生成有效的打序!');
+                            return;
+                        }
+            
+                        var discussionList = document.getElementById('discussionList');
+                        var listItem = document.createElement('li');
+                        listItem.innerHTML = `<strong>比賽日期：${gameDate}</strong><br>${generatedLineup}`;
+                        discussionList.appendChild(listItem);
+            
+                        // 清空表單
+                        document.getElementById('lineupForm').reset();
+                        document.getElementById('lineupOutput').style.display = 'none';
+                        generatedLineup = ''; // 重置生成的打序
+                    }
+                </script>
+            </body>
+            </html>
+            
+        
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>悍將悄悄話</h2>
+        <p>歡迎留言給你喜歡的球員！我們會盡可能將話傳給球員～</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">A Little About Me</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Life Enthusiast</h4>
-              <p><em>Curious, adventurous, and always ready to embrace new experiences. Whether it's traveling,
-                  learning, or simply enjoying the small moments, I believe in living life to the fullest.</em></p>
-              <ul>
-                <li>Based in: Somewhere between dreams & reality</li>
-                <li>Passions: Photography, Writing, Exploring</li>
-                <li>Contact: lifejourney@example.com</li>
-              </ul>
-            </div><!-- End Summary -->
-
-            <h3 class="resume-title">Milestones</h3>
-            <div class="resume-item">
-              <h4>First Solo Travel</h4>
-              <h5>2015</h5>
-              <p><em>Kyoto, Japan</em></p>
-              <p>The first time I traveled alone—it was both thrilling and terrifying. Kyoto's temples, the quiet
-                streets, and the friendly locals made me fall in love with solo adventures.</p>
-            </div><!-- End Milestone -->
-
-            <div class="resume-item">
-              <h4>Started Photography</h4>
-              <h5>2018</h5>
-              <p><em>Through My Lens</em></p>
-              <p>What started as a hobby turned into a passion. Capturing emotions, moments, and places became my way of
-                telling stories without words.</p>
-            </div><!-- End Milestone -->
-
+    
+      <!DOCTYPE html>
+      <html lang="zh-TW">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+          <style>
+              body {
+                  font-family: Arial, sans-serif;
+                  margin: 20px;
+                  background-color: #f4f4f9;
+              }
+              h1 {
+                  text-align: center;
+                  font-size: 30px;
+                  margin-bottom: 20px;
+              }
+              .container {
+                  max-width: 700px;
+                  margin: 0 auto;
+                  background-color: #fff;
+                  padding: 20px;
+                  border-radius: 8px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              }
+              label {
+                  font-size: 16px;
+                  margin: 10px 0;
+                  display: block;
+              }
+              input, textarea {
+                  width: 100%;
+                  padding: 10px;
+                  margin: 5px 0 20px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+              }
+              button {
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 10px 20px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  width: 100%;
+              }
+              button:hover {
+                  background-color: #45a049;
+              }
+              .message-board {
+                  margin-top: 30px;
+                  background-color: #f9f9f9;
+                  padding: 20px;
+                  border-radius: 8px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              }
+              .message-board h2 {
+                  font-size: 22px;
+                  margin-bottom: 20px;
+              }
+              .message-item {
+                  background-color: #e3f2fd;
+                  padding: 15px;
+                  border-radius: 8px;
+                  margin-bottom: 15px;
+              }
+              .message-item strong {
+                  font-size: 18px;
+              }
+              .message-item p {
+                  margin-top: 10px;
+              }
+          </style>
+      </head>
+      <body>
+      
+          <h1></h1>
+          <div class="container">
+              <form id="messageForm">
+                  <label for="playerName">球員名稱：</label>
+                  <input type="text" id="playerName" placeholder="請輸入球員名稱">
+      
+                  <label for="messageText">留言內容：</label>
+                  <textarea id="messageText" rows="4" placeholder="請輸入您的留言..."></textarea>
+      
+                  <button type="button" onclick="submitMessage()">提交留言</button>
+              </form>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Life Experiences</h3>
-            <div class="resume-item">
-              <h4>Backpacking Adventure</h4>
-              <h5>2019 - 2020</h5>
-              <p><em>Southeast Asia</em></p>
-              <ul>
-                <li>Traveled through Thailand, Vietnam, and Cambodia with just a backpack.</li>
-                <li>Met incredible people, tasted exotic food, and learned new cultures.</li>
-                <li>Learned that happiness comes from simplicity and connection, not material things.</li>
-              </ul>
-            </div><!-- End Experience -->
-
-            <div class="resume-item">
-              <h4>Moved to a New City</h4>
-              <h5>2022 - Present</h5>
-              <p><em>A New Chapter</em></p>
-              <ul>
-                <li>Left my comfort zone and started fresh in a different city.</li>
-                <li>Discovered new passions, built new friendships, and
-
-
-                  <!-- Daily Inspirations Section -->
-                  <section id="services" class="services section">
-
-                    <!-- Section Title -->
-                    <div class="container section-title" data-aos="fade-up">
-                      <h2>Daily Inspirations</h2>
-                      <p>Little things that make life meaningful and beautiful.</p>
-                    </div><!-- End Section Title -->
-
-                    <div class="container">
-
-                      <div class="row gy-4">
-
-                        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                          <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-camera icon"></i></div>
-                            <h4><a href="" class="stretched-link">Photography</a></h4>
-                            <p>Capturing the beauty in everyday moments, from sunrise to city lights.</p>
-                          </div>
-                        </div><!-- End Inspiration Item -->
-
-                        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                          <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-journal-text icon"></i></div>
-                            <h4><a href="" class="stretched-link">Writing</a></h4>
-                            <p>Penning down thoughts, experiences, and stories that touch the heart.</p>
-                          </div>
-                          <!-- Memories Section -->
-                          <section id="portfolio" class="portfolio section light-background">
-
-                            <!-- Section Title -->
-                            <div class="container section-title" data-aos="fade-up">
-                              <h2>Memories</h2>
-                              <p>Capturing the moments that matter, one frame at a time.</p>
-                            </div><!-- End Section Title -->
-
-                            <div class="container">
-
-                              <div class="isotope-layout" data-default-filter="*" data-layout="masonry"
-                                data-sort="original-order">
-
-                                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                                  <li data-filter="*" class="filter-active">All</li>
-                                  <li data-filter=".filter-travel">Travel</li>
-                                  <li data-filter=".filter-photography">Photography</li>
-                                  <li data-filter=".filter-moments">Special Moments</li>
-                                </ul><!-- End Portfolio Filters -->
-
-                                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-travel">
-                                    <img src="assets/img/memories/memories-1.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                      <h4>Paris 2023</h4>
-                                      <p>A breathtaking sunset over the Eiffel Tower.</p>
-                                      <a href="assets/img/memories/memories-1.jpg" title="Paris 2023"
-                                        data-gallery="portfolio-gallery-travel" class="glightbox preview-link"><i
-                                          class="bi bi-zoom-in"></i></a>
-                                      <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                          class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                  </div><!-- End Portfolio Item -->
-
-                                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
-                                    <img src="assets/img/memories/memories-2.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                      <h4>Nature Close-up</h4>
-                                      <p>Every leaf tells a story in the golden hour.</p>
-                                      <a href="assets/img/memories/memories-2.jpg" title="Nature Close-up"
-                                        data-gallery="portfolio-gallery-photography" class="glightbox preview-link"><i
-                                          class="bi bi-zoom-in"></i></a>
-                                      <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                          class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                  </div><!-- End Portfolio Item -->
-
-                                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-moments">
-                                    <img src="assets/img/memories/memories-3.jpg" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                      <h4>Graduation Day</h4>
-                                      <p>A milestone worth celebrating with loved ones.</p>
-                                      <a href="assets/img/memories/memories-3.jpg" title="Graduation Day"
-                                        data-gallery="portfolio-gallery-moments" class="glightbox preview-link"><i
-                                          class="bi bi-zoom-in"></i></a>
-                                      <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                          class="bi bi-link-45deg"></i></a>
-                                    </div>
-                                  </div><!-- End Portfolio Item -->
-
-                                </div><!-- End Portfolio Container -->
-
-                              </div>
-
-                            </div>
-
-                          </section><!-- /Memories Section -->
-
-
-                          <!-- Words from Friends Section -->
-                          <section id="testimonials" class="testimonials section">
-
-                            <!-- Section Title -->
-                            <div class="container section-title" data-aos="fade-up">
-                              <h2>Words from Friends</h2>
-                              <p>Kind words and special memories shared by those who matter the most.</p>
-                            </div><!-- End Section Title -->
-
-                            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                              <div class="swiper init-swiper" data-speed="600" data-delay="5000"
-                                data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
-
-                                <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 600,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": "auto",
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "breakpoints": {
-            "320": {
-              "slidesPerView": 1,
-              "spaceBetween": 40
-            },
-            "1200": {
-              "slidesPerView": 3,
-              "spaceBetween": 20
-            }
-          }
-        }
-      </script>
-
-                                <div class="swiper-wrapper">
-
-                                  <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                      <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>"Your photography always brings back the best memories. Keep capturing
-                                          magic!"</span>
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                      </p>
-                                      <img src="assets/img/testimonials/friend-1.jpg" class="testimonial-img" alt="">
-                                      <h3>Emily Carter</h3>
-                                      <h4>Best Friend</h4>
-                                    </div>
-                                  </div><!-- End testimonial item -->
-
-                                  <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                      <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>"Every time I read your blog, I feel like I’m traveling with you. Such an
-                                          inspiration!"</span>
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                      </p>
-                                      <img src="assets/img/testimonials/friend-2.jpg" class="testimonial-img" alt="">
-                                      <h3>Michael Smith</h3>
-                                      <h4>Travel Buddy</h4>
-                                    </div>
-                                  </div><!-- End testimonial item -->
-
-                                  <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                      <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>"You have a unique way of capturing emotions in photos. Truly
-                                          talented!"</span>
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                      </p>
-                                      <img src="assets/img/testimonials/friend-3.jpg" class="testimonial-img" alt="">
-                                      <h3>Sophia Reynolds</h3>
-                                      <h4>Photographer</h4>
-                                    </div>
-                                  </div><!-- End testimonial item -->
-
-                                  <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                      <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        <span>"From our childhood adventures to today, your stories always make me
-                                          smile!"</span>
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                      </p>
-                                      <img src="assets/img/testimonials/friend-4.jpg" class="testimonial-img" alt="">
-                                      <h3>David Williams</h3>
-                                      <h4>Childhood Friend</h4>
-                                    </div>
-                                  </div><!-- End testimonial item -->
-
-                                </div>
-                                <div class="swiper-pagination"></div>
-                              </div>
-
-                            </div>
-
-                          </section><!-- /Words from Friends Section -->
-
-                          <!-- Contact Section -->
-                          <section id="contact" class="contact section">
-
-                            <!-- Section Title -->
-                            <div class="container section-title" data-aos="fade-up">
-                              <h2>Let's Connect</h2>
-                              <p>Feel free to reach out! Whether you have a question, a collaboration idea, or just want
-                                to say hi, I'd love to hear from you.</p>
-                            </div><!-- End Section Title -->
-
-                            <div class="container" data-aos="fade" data-aos-delay="100">
-
-                              <div class="row gy-4">
-
-                                <div class="col-lg-4">
-                                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                                    <i class="bi bi-envelope flex-shrink-0"></i>
-                                    <div>
-                                      <h3>Email Me</h3>
-                                      <p>hello@yourdomain.com</p>
-                                    </div>
-                                  </div><!-- End Info Item -->
-
-                                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                                    <i class="bi bi-chat-dots flex-shrink-0"></i>
-                                    <div>
-                                      <h3>Let's Chat</h3>
-                                      <p><a href="https://wa.me/15551234567">WhatsApp</a> | <a
-                                          href="https://t.me/yourtelegram">Telegram</a></p>
-                                    </div>
-                                  </div><!-- End Info Item -->
-
-                                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                                    <i class="bi bi-share flex-shrink-0"></i>
-                                    <div>
-                                      <h3>Follow Me</h3>
-                                      <p>
-                                        <a href="https://instagram.com/yourprofile">Instagram</a> |
-                                        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-                                      </p>
-                                    </div>
-                                  </div><!-- End Info Item -->
-                                </div>
-
-                                <div class="col-lg-8">
-                                  <form action="forms/contact.php" method="post" class="php-email-form"
-                                    data-aos="fade-up" data-aos-delay="200">
-                                    <div class="row gy-4">
-
-                                      <div class="col-md-6">
-                                        <input type="text" name="name" class="form-control" placeholder="Your Name"
-                                          required="">
-                                      </div>
-
-                                      <div class="col-md-6 ">
-                                        <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                          required="">
-                                      </div>
-
-                                      <div class="col-md-12">
-                                        <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                          required="">
-                                      </div>
-
-                                      <div class="col-md-12">
-                                        <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                          required=""></textarea>
-                                      </div>
-
-                                      <div class="col-md-12 text-center">
-                                        <div class="loading">Loading</div>
-                                        <div class="error-message"></div>
-                                        <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                        <button type="submit">Send Message</button>
-                                      </div>
-
-                                    </div>
-                                  </form>
-                                </div><!-- End Contact Form -->
-
-                              </div>
-
-                            </div>
-
-                          </section><!-- /Contact Section -->
+      
+          <div class="message-board" id="messageBoard">
+              <h2>留言板</h2>
+              <div id="messageList"></div>
+          </div>
+      
+          <script>
+              function submitMessage() {
+                  var playerName = document.getElementById('playerName').value.trim();
+                  var message = document.getElementById('messageText').value.trim();
+      
+                  if (playerName === "" || message === "") {
+                      alert("球員名稱和留言內容都不能為空！");
+                      return;
+                  }
+      
+                  // 取得留言區顯示元素
+                  var messageList = document.getElementById('messageList');
+      
+                  // 建立留言項目
+                  var messageItem = document.createElement('div');
+                  messageItem.classList.add('message-item');
+                  
+                  messageItem.innerHTML = `<strong>${playerName}</strong><p>${message}</p>`;
+      
+                  // 顯示留言
+                  messageList.appendChild(messageItem);
+      
+                  // 清空留言區
+                  document.getElementById('playerName').value = "";
+                  document.getElementById('messageText').value = "";
+              }
+          </script>
+      
+      </body>
+      </html>
+      
+    </section><!-- /Contact Section -->
 
   </main>
 
   <footer id="footer" class="footer light-background">
     <div class="container">
-      <h3 class="sitename">Life</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Lonely</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+      <h3 class="sitename">富邦悍將</h3>
+      <p>期待拋下藍色彩帶的一天</p>
+     
+      <!DOCTYPE html>
+      <html lang="zh-TW">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>富邦悍將連結</title>
+          <style>
+              body {
+                  font-family: Arial, sans-serif;
+                  margin: 20px;
+                  background-color: #f4f4f9;
+                  text-align: center;
+              }
+              h1 {
+                  font-size: 28px;
+                  margin-bottom: 20px;
+              }
+              .link-buttons {
+                  margin-top: 30px;
+              }
+              .link-buttons a {
+                  display: inline-block;
+                  text-decoration: none;
+                  margin: 10px;
+                  padding: 20px;
+                  border-radius: 8px;
+                  transition: transform 0.3s ease, box-shadow 0.3s ease;
+              }
+              .link-buttons a:hover {
+                  transform: scale(1.1);
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              }
+              .link-buttons img {
+                  width: 50px;
+                  height: 50px;
+              }
+          </style>
+      </head>
+      <body>
+      
+          <h1>富邦悍將官方連結</h1>
+          
+          <div class="link-buttons">
+              <!-- 富邦悍將官網 -->
+              <a href="https://www.fubonguardians.com/content/stadium/Index" target="_blank">
+                  <img src="data:image/jpeg;base64,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" alt="官網圖示">
+              </a>
+              
+              <!-- 富邦悍將 IG -->
+              <a href="https://www.instagram.com/fubon_guardians_official//" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram圖示">
+              </a>
+              
+              <!-- 富邦悍將 FB -->
+              <a href="https://www.facebook.com/FubonGuardiansBaseballTeam/?locale=zh_TW" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook圖示">
+              </a>
+          </div>
+      
+      </body>
+      </html>
+      
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
